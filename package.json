@@ -1,0 +1,53 @@
+{
+  "name": "ai-agent-file-operations",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI Agent with file operation capabilities using Vercel AI SDK v5",
+  "main": "models/bailian/main-bailian.js",
+  "scripts": {
+    "start": "node models/bailian/main-bailian.js",
+    "start:bailian": "node models/bailian/main-bailian.js",
+    "start:deepseek": "node models/deepseek/main-deepseek.js",
+    "start:gemini": "node models/gemini/main.js",
+    "test": "node tests/test-bailian.js",
+    "test:bailian": "node tests/test-bailian.js",
+    "test:deepseek": "node tests/test-deepseek.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "file-operations",
+    "vercel-ai-sdk",
+    "bailian",
+    "deepseek",
+    "gemini",
+    "llm",
+    "natural-language"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/你的用户名/ai-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/你的用户名/ai-agent/issues"
+  },
+  "homepage": "https://github.com/你的用户名/ai-agent#readme",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.0",
+    "@ai-sdk/openai-compatible": "^1.0.25",
+    "ai": "^5.0.86",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "2",
+    "openai": "^6.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

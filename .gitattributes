@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files
+*.md text
+*.js text
+*.json text
+*.sh text eol=lf
+
+# Denote binary files
+*.png binary
+*.jpg binary
